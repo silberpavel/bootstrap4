@@ -1,0 +1,27 @@
+.contrainer {
+    background: #d34768;
+}
+
+.row {
+    background: #c7c57c;
+    height: 300px;
+}
+.row div{
+    text-align: center;
+    height: 100px;
+}
+.row div:nth-child(odd){
+    background: #4d77e3;
+}
+.row div:nth-child(even){
+    background: #c24de3;
+}
+
+/* @keyframes  random {
+    15% { background-color: red; } 
+    30% { background-color: yellow; } 
+    45% { background-color: green; } 
+    60% { background-color: blue; }
+    75% { background-color: white; }  
+} */
+
